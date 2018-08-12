@@ -23,3 +23,6 @@
 
    Output: all i such that A[i] is true.
   ```
+#### Dijkstra Shortest Path
+
+#### Problem 51
