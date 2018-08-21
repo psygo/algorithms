@@ -79,6 +79,7 @@ def solve_51(N,primes_N,len_51):
             # Length of the prime collection searched
             if len(prime_collection) >= len_51:
                 print('\n',n)
+                print(comb_list)
                 print(comb_list[i])
                 print(prime_collection)
                 return

@@ -29,7 +29,7 @@ Its implementation usually is usually coupled with special properties (like only
 
 Problem 51 is found [here](https://projecteuler.net/archives). It asks you to find the family of 8 numbers containing only primes which have replaceable digits that also yield other primes. For example, 56003 is a prime which can have its 0-digits replaced by others and still yield 6 primes: 56113, 56333, 56433, 56663, 56773 and 56773.
 
-The solution found in this repo (with the files `solve_51.py` and `answer_51.py`) uses pure brute force and can be very inefficient. It first finds all the possible combinations of digits to be replaced and then tries to see if those can make a family of primes by replacing them with other ones. For example, the number of combinations of digits of a 5-digit number would be ![equation](http://latex.codecogs.com/gif.latex?C_%7B5%2C5%7D%20&plus;%20C_%7B5%2C4%7D%20&plus;%20C_%7B5%2C3%7D%20&plus;%20C_%7B5%2C2%7D%20&plus;%20C_%7B5%2C1%7D).
+The solution found in this repo (with the files `solve_51.py` and `answer_51.py`) uses pure brute force and can be very inefficient. It first finds all the possible combinations of digits to be replaced and then tries to see if those can make a family of primes by replacing them with other ones. For example, the number of combinations of digits of a 5-digit number would be $C_{5,5} + C_{5,4} + C_{5,3} + C_{5,2} + C_{5,1}$.
 
 As mentioned before this is very expensive. A first and obvious improvement would be to scratch out the primes which were checked to have families too small to solve the problem. Other improvements use several properties of prime numbers which I didn't know, you can take a look at them [here](https://blog.dreamshire.com/project-euler-51-solution/).
 
