@@ -1,6 +1,7 @@
 # What's inside this Repo?
 
 This is a collection of famous algorithms, which I mainly used to learn more about Python and programming.
+For more info, visit [fanaro.com.br](http://fanaro.com.br/).
 
 Among them, you will find:
 
@@ -53,4 +54,4 @@ To find $E$, a more refined algorithm can be implemented, which uses gradient de
 \end{align*}
 \]
 
-I've also implemented a less clever search which only halfs the search interval every time it gets closer to the target. This seems to be a better implementation actually, since it's much less computationally expensive, and it also doesn't have convergence problems due to a learning rate.
+I've also implemented a less clever search - and an Erlang Table Generator - which only halfs the search interval every time it gets closer to the target. This seems to be a better implementation actually, since it's much less computationally expensive, and it also doesn't have convergence problems due to a learning rate.
